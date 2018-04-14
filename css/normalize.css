@@ -22,14 +22,27 @@ html {
 
 body {
   margin: 0;
-  background: #FFFFFF;
+  background: #F5F5DC;
   color: #096FFA;
+  /*color: #096FFA;*/
 }
 
-header {
-  background: #F9BD1E;
+#headerPrincipal {
+  background: #F4AF00;
   margin-left: 20px;
   margin-right: 20px;
+  /*margin-top: 5px;
+  margin-bottom: 5px;*/ 
+  border-radius: 0.5em;
+  background: url('../img/header.png') no-repeat;
+}
+
+#headerOpciones {
+  background: #2A607A;
+  margin-left: 20px;
+  margin-right: 20px;
+  /*margin-top: 5px;
+  margin-bottom: 5px;*/ 
   border-radius: 0.5em;
 }
 
@@ -53,10 +66,113 @@ h1 {
 }
 
 h2 {
+  font-family: Lucida Fax;
+  font-size: 20px;
   margin-left: 20px;
   margin-right: 20px;
 }
 
+h3{
+  font-family: Helvetica;
+  color: #030303;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#listaOpcionesPrincipales li {
+     display:inline;
+     padding-left:10px;
+     padding-right:10px;
+}
+
+a { 
+  color: #FFFF00; 
+}
+
+
+
+#contenedorInformacion
+{
+
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 0.5em;
+  /*margin-top: 20px;*/
+  overflow: hidden;
+}
+
+
+article{
+  background: #EEEEEE;
+  float: left;
+  min-height: 500px;
+  text-align: justify;
+  width: 75%;
+}
+
+
+.bloque-derecha-superior{
+  background: #EEEEEE;
+  margin-top: -40px;
+  float: right;
+  width: 290px;
+}
+
+.bloque-derecha-superior .titulo{
+  background: #1d1d1d;
+  color: #FFFFFF;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+
+.bloque-derecha-superior section{
+  height: 90px;
+  width: 100%;
+}
+
+.bloque-derecha-inferior{
+  background: #EEEEEE;
+  margin-top: -40px;
+  float: right;
+  width: 290px;
+}
+
+.bloque-derecha-inferior .titulo{
+  background: #1d1d1d;
+  color: #FFFFFF;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+
+.bloque-derecha-inferior section{
+  /*background: url('../img/IconoFacebook.png') no-repeat;*/
+  height: 90px;
+  width: 100%;
+}
+
+
+/*.integrantes {
+  font-size: 14;
+  position: relative;
+  margin-left: 20px;
+}
+
+/*.mapa {
+  font-size: 75%;
+  position: relative;
+  float: right;
+}
+
+/*.compartir {
+  position: relative;
+  float: left;
+}*/
 
 /* Grouping content
    ========================================================================== */
