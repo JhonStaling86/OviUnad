@@ -11,6 +11,7 @@
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  overflow: scroll;
 }
 
 /* Sections
@@ -178,6 +179,7 @@ article{
   margin-top: -40px;
   float: right;
   width: 290px;
+  overflow: auto 
 }
 
 .bloque-derecha-superior .titulo{
@@ -191,7 +193,7 @@ article{
 
 
 .bloque-derecha-superior section{
-  height: 90px;
+  height: 400px;
   width: 100%;
 }
 
@@ -219,6 +221,17 @@ article{
 }
 
 
+table {
+   width: 100%;
+   border: 1px solid #000;
+}
+th, td {
+   width: 25%;
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid #000;
+   border-spacing: 0;
+}
 
 
 
